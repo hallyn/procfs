@@ -1,0 +1,4 @@
+CFLAGS=-g -D_FILE_OFFSET_BITS=64 -DFUSE_USE_VERSION=27 -D_GNU_SOURCE
+LDLIBS=-lfuse
+
+procfs: procfs.c
